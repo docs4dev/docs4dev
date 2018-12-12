@@ -17,9 +17,40 @@ https://www.docs4dev.com
 - 支持多版本的文档
 - 良好的文档阅读体验
   - `Doc4dev` 基于 `ant-design` 提供了非常简洁的文档阅读界面
+  - 一键直接复制代码
 - 基于 `Elasticsearch` 的文档全文检索
 
+### Contributing
 
+**文档翻译**
+
+如果你希望翻译相关的文档，请 `clone` 项目到本地，翻译完成后提交 PR。
+
+目前文档的是按照以下结构进行分类的：
+
+```
+docs4dev/文档名称/版本号/语言代码/具体文档
+```
+
+目前我们只支持以下语言：
+
+- `zh`: 中文
+- `en`: 英文
+
+如果你希望翻译其它语言，请提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+
+**文档纠错**
+
+如果你发现某个文档和官方文档有出入，请给我们提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+
+**其它**
+
+如果你有针对此网站好的建议或意见，也欢迎给我们提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+
+### Roadmap
+
+- 更多的文档和更多的文档版本支持
+- ...
 
 ### Screenshot
 
