@@ -1,0 +1,3 @@
+## 44. Service ID Must Be Unique
+
+The bus tries twice to eliminate processing an event — once from the original  `ApplicationEvent`  and once from the queue. To do so, it checks the sending service ID against the current service ID. If multiple instances of a service have the same ID, events are not processed. When running on a local machine, each service is on a different port, and that port is part of the ID. Cloud Foundry supplies an index to differentiate. To ensure that the ID is unique outside Cloud Foundry, set  `spring.application.index`  to something unique for each instance of a service.

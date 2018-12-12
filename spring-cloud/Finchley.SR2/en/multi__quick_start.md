@@ -1,0 +1,140 @@
+## 4. Quick Start
+
+This quick start walks through using both the server and the client of Spring Cloud Config Server.
+
+First, start the server, as follows:
+
+```java
+$ cd spring-cloud-config-server
+$ ../mvnw spring-boot:run
+```
+
+The server is a Spring Boot application, so you can run it from your IDE if you prefer to do so (the main class is  `ConfigServerApplication` ).
+
+Next try out a client, as follows:
+
+```java
+$ curl localhost:8888/foo/development
+{"name":"foo","label":"master","propertySources":[
+{"name":"https://github.com/scratches/config-repo/foo-development.properties","source":{"bar":"spam"}},
+{"name":"https://github.com/scratches/config-repo/foo.properties","source":{"foo":"bar"}}
+]}
+```
+
+The default strategy for locating property sources is to clone a git repository (at  `spring.cloud.config.server.git.uri` ) and use it to initialize a mini  `SpringApplication` . The mini-application’s  `Environment`  is used to enumerate property sources and publish them at a JSON endpoint.
+
+The HTTP service has resources in the following form:
+
+```java
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+```
+
+where  `application`  is injected as the  `spring.config.name`  in the  `SpringApplication`  (what is normally  `application`  in a regular Spring Boot app),  `profile`  is an active profile (or comma-separated list of properties), and  `label`  is an optional git label (defaults to  `master` .)
+
+Spring Cloud Config Server pulls configuration for remote clients from a git repository (which must be provided), as shown in the following example:
+
+```java
+spring:
+cloud:
+config:
+server:
+git:
+uri: https://github.com/spring-cloud-samples/config-repo
+```
+
+## 4.1 Client Side Usage
+
+To use these features in an application, you can build it as a Spring Boot application that depends on spring-cloud-config-client (for an example, see the test cases for the config-client or the sample application). The most convenient way to add the dependency is with a Spring Boot starter  `org.springframework.cloud:spring-cloud-starter-config` . There is also a parent pom and BOM ( `spring-cloud-starter-parent` ) for Maven users and a Spring IO version management properties file for Gradle and Spring CLI users. The following example shows a typical Maven configuration:
+
+**pom.xml.**  
+
+```xml
+<parent>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-parent</artifactId>
+<version>{spring-boot-docs-version}</version>
+<relativePath /> <!-- lookup parent from repository -->
+</parent>
+
+<dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-dependencies</artifactId>
+			<version>{spring-cloud-version}</version>
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
+	</dependencies>
+</dependencyManagement>
+
+<dependencies>
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-config</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
+
+<build>
+	<plugins>
+<plugin>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-maven-plugin</artifactId>
+</plugin>
+	</plugins>
+</build>
+
+<!-- repositories also needed for snapshots and milestones -->
+```
+
+Now you can create a standard Spring Boot application, such as the following HTTP server:
+
+```java
+@SpringBootApplication
+@RestController
+public class Application {
+
+@RequestMapping("/")
+public String home() {
+return "Hello World!";
+}
+
+public static void main(String[] args) {
+SpringApplication.run(Application.class, args);
+}
+
+}
+```
+
+When this HTTP server runs, it picks up the external configuration from the default local config server (if it is running) on port 8888. To modify the startup behavior, you can change the location of the config server by using  `bootstrap.properties`  (similar to  `application.properties`  but for the bootstrap phase of an application context), as shown in the following example:
+
+```java
+spring.cloud.config.uri: http://myconfigserver.com
+```
+
+The bootstrap properties show up in the  `/env`  endpoint as a high-priority property source, as shown in the following example.
+
+```java
+$ curl localhost:8080/env
+{
+"profiles":[],
+"configService:https://github.com/spring-cloud-samples/config-repo/bar.properties":{"foo":"bar"},
+"servletContextInitParams":{},
+"systemProperties":{...},
+...
+}
+```
+
+A property source called  ```configService:<URL of remote repository>/<file name>`  contains the  `foo`  property with a value of  `bar`  and is highest priority.
+
+> The URL in the property source name is the git repository, not the config server URL.
+

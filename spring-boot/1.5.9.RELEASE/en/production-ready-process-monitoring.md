@@ -1,0 +1,28 @@
+## 60. Process Monitoring
+
+In the  `spring-boot`  module, you can find two classes to create files that are often useful for process monitoring:
+
+-  `ApplicationPidFileWriter`  creates a file containing the application PID (by default, in the application directory with a file name of  `application.pid` ).
+
+-  `WebServerPortFileWriter`  creates a file (or files) containing the ports of the running web server (by default, in the application directory with a file name of  `application.port` ).
+
+By default, these writers are not activated, but you can enable:
+
+- [By Extending Configuration](production-ready-process-monitoring.html#production-ready-process-monitoring-configuration)
+
+- [Section 60.2, “Programmatically”](production-ready-process-monitoring.html#production-ready-process-monitoring-programmatically)
+
+## 60.1 Extending Configuration
+
+In the  `META-INF/spring.factories`  file, you can activate the listener(s) that writes a PID file, as shown in the following example:
+
+```java
+org.springframework.context.ApplicationListener=\
+org.springframework.boot.context.ApplicationPidFileWriter,\
+org.springframework.boot.web.context.WebServerPortFileWriter
+```
+
+## 60.2 Programmatically
+
+You can also activate a listener by invoking the  `SpringApplication.addListeners(…)`  method and passing the appropriate  `Writer`  object. This method also lets you customize the file name and path in the  `Writer`  constructor.
+

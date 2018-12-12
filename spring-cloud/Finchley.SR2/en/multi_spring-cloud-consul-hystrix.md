@@ -1,0 +1,3 @@
+## 70. Circuit Breaker with Hystrix
+
+Applications can use the Hystrix Circuit Breaker provided by the Spring Cloud Netflix project by including this starter in the projects pom.xml:  `spring-cloud-starter-hystrix` . Hystrix doesn’t depend on the Netflix Discovery Client. The  `@EnableHystrix`  annotation should be placed on a configuration class (usually the main class). Then methods can be annotated with  `@HystrixCommand`  to be protected by a circuit breaker. See [the documentation](https://projects.spring.io/spring-cloud/spring-cloud.html#_circuit_breaker_hystrix_clients) for more details.

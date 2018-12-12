@@ -1,0 +1,8 @@
+## 128. Standalone Streaming Applications
+
+To send or receive messages from a broker (such as RabbitMQ or Kafka) you can use the  `spring-cloud-function-stream`  adapter. Add the adapter to your classpath along with the appropriate binder from Spring Cloud Stream. The adapter will bind to the message broker as a  `Processor`  (input and output streams) unless the user explicitly disables one or the other using  `spring.cloud.function.stream.{source,sink}.enabled=false` .
+
+An incoming message is routed to a function (or consumer). If there is only one, then the choice is obvious. If there are multiple functions that can accept an incoming message, the message is inspected to see if there is a  `stream_routekey`  header containing the name of a function. Routing headers or function names can be composed using a comma- or pipe-separated name. The header is also added to outgoing messages from a supplier. Messages with no route key can be routed exclusively to a function or consumer by specifying  `spring.cloud.function.stream.{processor,sink}.name` . If a single function cannot be identified to process an incoming message there will be an error, unless you set  `spring.cloud.function.stream.shared=true` , in which case such messages will be sent to all compatible functions. A single supplier can be chosen for output messages from a supplier (if more than one is available) using the  `spring.cloud.function.stream.source.name` .
+
+> some binders will fail on startup if the message broker is not available and the function catalog contains suppliers that immediately produce messages when accessed. You can switch off the automatic publishing from suppliers on startup using the  `spring.cloud.function.strean.supplier.enabled=false`  flag.
+
