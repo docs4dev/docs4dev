@@ -37,15 +37,15 @@ docs4dev/文档名称/版本号/语言代码/具体文档
 - `zh`: 中文
 - `en`: 英文
 
-如果你希望翻译其它语言，请提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+如果你希望翻译其它语言，请提 [issue](https://github.com/docs4dev/spring-docs/issues/new).
 
 **文档纠错**
 
-如果你发现某个文档和官方文档有出入，请给我们提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+如果你发现某个文档和官方文档有出入，请给我们提 [issue](https://github.com/docs4dev/spring-docs/issues/new).
 
 **其它**
 
-如果你有针对此网站好的建议或意见，也欢迎给我们提 [issue](https://github.com/heyuxian/docs4dev/issues/new).
+如果你有针对此网站好的建议或意见，也欢迎给我们提 [issue](https://github.com/docs4dev/spring-docs/issues/new).
 
 ### Roadmap
 
