@@ -2,8 +2,7 @@
 https://www.docs4dev.com 
 
 ### Features
-
-- 非常全面的开发文档
+- 开发人员文档
   - [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference)
   - [Spring Cloud](https://www.docs4dev.com/docs/en/spring-cloud/Finchley.SR2/reference)
   - [Spring Batch](https://www.docs4dev.com/docs/en/spring-batch/4.1.x/reference)
