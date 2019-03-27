@@ -53,7 +53,7 @@ docs4dev/文档名称/版本号/语言代码/具体文档
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/30259465/49869701-22d2a580-fe4c-11e8-86e4-99230e10efe8.png)
+![image](https://user-images.githubusercontent.com/46130657/55072727-d2afe400-50c6-11e9-8e24-95dea047de7f.png)
 
 ![image](https://user-images.githubusercontent.com/30259465/49869742-3d0c8380-fe4c-11e8-9e82-43f89788ab62.png)
 
