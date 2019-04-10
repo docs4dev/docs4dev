@@ -8,6 +8,7 @@ https://www.docs4dev.com
   - 中文（beta）
   - ...
 - 支持多版本的文档
+- 同步更新官方最新版本的文档
 - 基于 `Elasticsearch` 的文档全文检索
 
 ### 文档列表
