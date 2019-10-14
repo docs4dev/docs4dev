@@ -38,7 +38,7 @@ https://www.docs4dev.com
 - 如果你希望添加更多的工具，
 - 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)  😄 。
 
-## 网站新日志
+## 网站更新日志
 
 - 2019-10-14 编辑器添加自动保存功能 ([#10](https://github.com/docs4dev/docs4dev/issues/)）
 - 2019-10-10 修复 GitHub 网站使用github 登录出错 ([#9](https://github.com/docs4dev/docs4dev/issues/))
