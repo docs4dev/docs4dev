@@ -38,6 +38,14 @@ https://www.docs4dev.com
 - 如果你希望添加更多的工具，
 - 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)  😄 。
 
+## 网站新日志
+
+- 2019-10-14 编辑器添加自动保存功能 (https://github.com/docs4dev/docs4dev/issues/10）
+- 2019-10-10 修复 GitHub 网站使用github 登录出错 (https://github.com/docs4dev/docs4dev/issues/9)
+- 2019-10-03 修复文档翻译错误 (https://github.com/docs4dev/docs4dev/issues/8)
+- 2019-08-09 修复网站 502 错误 (https://github.com/docs4dev/docs4dev/issues/5)
+- ...
+
 ## Roadmap
 
 - 更多文档的支持
