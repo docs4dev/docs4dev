@@ -1,6 +1,9 @@
 # Docs4dev
 https://www.docs4dev.com 
 
+- [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
+- [【新用户一折起购阿里云服务器】](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=FCA592361EAAF398BB43B6AE8DFB53A0647C88CF896EF535&userCode=eyj8uzr0&share_source=copy_link)
+
 ## 项目背景
 
 在开发中，一份文档是必不可少的，但是现在很多的框架，都只有英文版，这对于新手来说非常不友好；虽然国内也有许多人组织翻译，但是这个工作量是非常巨大的，而且时效性没那么高，很多框架的中文文档都是比较老的版本，同时，翻译的文档也很不是那么齐全。基于此，我创建了这个项目，并建立了相关的网站 [Docs4dev](https://www.docs4dev.com )。我会使用爬虫从官方拉取最新版本的文档，并通过调用 **翻译API** 对文档进行初步翻译，以减少后续人工翻译的工作量。
