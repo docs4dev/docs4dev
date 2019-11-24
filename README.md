@@ -4,7 +4,7 @@ https://www.docs4dev.com
 - [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
 
 
-- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【https://www.docs4dev.com/amp/】即可通过手机浏览文档
+- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【https://www.docs4dev.com/amp/】 即可通过手机浏览文档
 
 ![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
 
@@ -49,6 +49,7 @@ https://www.docs4dev.com
 
 ## 网站更新日志
 
+- 2019-11-24 添加手机版 Docs4dev（使用 AMP 方式实现，加载速度更快且更省流量 🛩 ）
 - 2019-10-14 编辑器添加自动保存功能 ([#10](https://github.com/docs4dev/docs4dev/issues/)）
 - 2019-10-10 修复 GitHub 网站使用github 登录出错 ([#9](https://github.com/docs4dev/docs4dev/issues/))
 - 2019-10-03 修复文档翻译错误 ([#8](https://github.com/docs4dev/docs4dev/issues/))
@@ -57,8 +58,8 @@ https://www.docs4dev.com
 
 ## Roadmap
 
-- 更多文档的支持
 - 文档全文 PDF 下载
+- 更多文档的支持
 - [asciidoctor](https://github.com/asciidoctor/asciidoctor) 格式支持
 - 移动端（小程序）的支持
 - ...
