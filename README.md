@@ -2,7 +2,13 @@
 https://www.docs4dev.com 
 
 - [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
-- [【新用户一折起购阿里云服务器】](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=FCA592361EAAF398BB43B6AE8DFB53A0647C88CF896EF535&userCode=eyj8uzr0&share_source=copy_link)
+
+
+- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【https://www.docs4dev.com/amp/】即可通过手机浏览文档
+
+![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
+
+
 
 ## 项目背景
 
