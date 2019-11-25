@@ -4,7 +4,7 @@ https://www.docs4dev.com
 - [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
 
 
-- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【https://www.docs4dev.com/amp/】 即可通过手机浏览文档
+- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
 
 ![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
 
