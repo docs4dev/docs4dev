@@ -4,6 +4,7 @@ https://www.docs4dev.com
 - [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
 
 
+- 新增 PDF 文档下载功能，方便无法联外网的同学查看文档（目前只支持 [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference/boot-documentation-about.html#%E5%85%B3%E4%BA%8E%E6%96%87%E6%A1%A3) 以及 [Zookeeper](https://www.docs4dev.com/docs/en/zookeeper/r3.5.6/reference/zookeeperOver.html)，后续会添加更多文档，如有需要，请提 Issue，我尽量优先添加）。
 - 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
 
 ![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
@@ -12,7 +13,7 @@ https://www.docs4dev.com
 
 ## 项目背景
 
-在开发中，一份文档是必不可少的，但是现在很多的框架，都只有英文版，这对于新手来说非常不友好；虽然国内也有许多人组织翻译，但是这个工作量是非常巨大的，而且时效性没那么高，很多框架的中文文档都是比较老的版本，同时，翻译的文档也很不是那么齐全。基于此，我创建了这个项目，并建立了相关的网站 [Docs4dev](https://www.docs4dev.com )。我会使用爬虫从官方拉取最新版本的文档，并通过调用 **翻译API** 对文档进行初步翻译，以减少后续人工翻译的工作量。
+目前许多开源项目的文档，都只有英文版，这对于国内用户不太友好；虽然目前也有很多人翻译文档，但是工作量太大，导致文档的翻译不是很全，而且时效性较低，很多框架的文档都是较老的版本。基于此，我创建了这个项目，并建立了相关的网站 [Docs4dev](https://www.docs4dev.com )。我会使用爬虫从官方拉取最新版本的文档，并通过调用 **翻译API** 对文档进行初步翻译，以减少后续人工翻译的工作量。
 
 但是，因个人的时间及精力有限，同时我还要维护网站，抓取文档，所以无法及时对所有文档进行一一进行校对，所以，希望你能够帮助我一起来完善文档（[查看校对指南](GUIDE.md)）。
 
@@ -39,16 +40,14 @@ https://www.docs4dev.com
 ## 参与贡献
 
 - 如果你希望参与校对，请阅读 [校对指南](GUIDE.md)。
-
 - 如果你希望添加某个文档，
-
 - 如果你发现了网站的 bug，
 - 如果你觉得网站有哪个可以改进的地方，
 - 如果你希望添加更多的工具，
 - 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)  😄 。
 
 ## 网站更新日志
-
+- 2019-12-01 实现文档 PDF 下载（支持书签，支持多语言）
 - 2019-11-24 添加手机版 Docs4dev（使用 AMP 方式实现，加载速度更快且更省流量 🛩 ）
 - 2019-10-14 编辑器添加自动保存功能 ([#10](https://github.com/docs4dev/docs4dev/issues/)）
 - 2019-10-10 修复 GitHub 网站使用github 登录出错 ([#9](https://github.com/docs4dev/docs4dev/issues/))
@@ -58,7 +57,7 @@ https://www.docs4dev.com
 
 ## Roadmap
 
-- 文档全文 PDF 下载
+
 - 更多文档的支持
 - [asciidoctor](https://github.com/asciidoctor/asciidoctor) 格式支持
 - 移动端（小程序）的支持
