@@ -46,6 +46,24 @@ https://www.docs4dev.com
 - 如果你希望添加更多的工具，
 - 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)  😄 。
 
+## Contributers
+
+**Github 用户：**
+
+- [mawen12](https://github.com/mawen12) 
+- [zhenkengna](https://github.com/zhenkengna)
+- [gengqiupeng](https://github.com/gengqiupeng) 
+- [GeekJJ](https://github.com/GeekJJ)
+- [yansheng836](https://github.com/yansheng836)
+- [YeDongaidiiqu](https://github.com/YeDongaidiiqu)
+- [JasonEcho](https://github.com/JasonEcho)
+- [GeekJJ](https://github.com/GeekJJ)
+
+**其他**
+
+- funbuilder
+- czs
+
 ## 网站更新日志
 - 2019-12-01 实现文档 PDF 下载（支持书签，支持多语言）
 - 2019-11-24 添加手机版 Docs4dev（使用 AMP 方式实现，加载速度更快且更省流量 🛩 ）
@@ -65,8 +83,8 @@ https://www.docs4dev.com
 ## 文档列表
 
 #### Spring
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Spring Boot Reference](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference) | [1.5.9.RELEASE](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference) | [English](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference) |
 | [Spring Boot 中文文档](https://www.docs4dev.com/docs/zh/spring-boot/1.5.9.RELEASE/reference) | [1.5.9.RELEASE](https://www.docs4dev.com/docs/zh/spring-boot/1.5.9.RELEASE/reference) | [中文](https://www.docs4dev.com/docs/zh/spring-boot/1.5.9.RELEASE/reference) |
 | [Spring Boot Reference](https://www.docs4dev.com/docs/en/spring-boot/2.1.1.RELEASE/reference) | [2.1.1.RELEASE](https://www.docs4dev.com/docs/en/spring-boot/2.1.1.RELEASE/reference) | [English](https://www.docs4dev.com/docs/en/spring-boot/2.1.1.RELEASE/reference) |
@@ -112,8 +130,8 @@ https://www.docs4dev.com
 
 
 #### Http Server
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Nginx](https://www.docs4dev.com/docs/en/nginx/current/reference) | [current](https://www.docs4dev.com/docs/en/nginx/current/reference) | [English](https://www.docs4dev.com/docs/en/nginx/current/reference) |
 | [Nginx 中文文档](https://www.docs4dev.com/docs/zh/nginx/current/reference) | [current](https://www.docs4dev.com/docs/zh/nginx/current/reference) | [中文](https://www.docs4dev.com/docs/zh/nginx/current/reference) |
 | [Apache](https://www.docs4dev.com/docs/en/apache/2.4/reference) | [2.4](https://www.docs4dev.com/docs/en/apache/2.4/reference) | [English](https://www.docs4dev.com/docs/en/apache/2.4/reference) |
@@ -121,19 +139,19 @@ https://www.docs4dev.com
 
 
 #### Python
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Python](https://www.docs4dev.com/docs/en/python/2.7.15/all) | [2.7.15](https://www.docs4dev.com/docs/en/python/2.7.15/all) | [English](https://www.docs4dev.com/docs/en/python/2.7.15/all) |
-| [Python 中文文档](https://www.docs4dev.com/docs/zh/python/2.7.15/all) | [2.7.15](https://www.docs4dev.com/docs/zh/python/2.7.15/all) | [中文](https://www.docs4dev.com/docs/zh/python/2.7.15/all) |
+| [Python 中文文档](https://www.docs4dev.com/docs/zh/python/2.7.15/all) | [2.7.15](https://www.docs4dev.com/docs/zh/python/2.7.15/all) | [中文](https://www.docs4dev.com/docs/zh/python/2.7.15/all)   |
 | [Python](https://www.docs4dev.com/docs/en/python/3.7.2rc1/all) | [3.7.2rc1](https://www.docs4dev.com/docs/en/python/3.7.2rc1/all) | [English](https://www.docs4dev.com/docs/en/python/3.7.2rc1/all) |
 | [Python 中文文档](https://www.docs4dev.com/docs/zh/python/3.7.2rc1/all) | [3.7.2rc1](https://www.docs4dev.com/docs/zh/python/3.7.2rc1/all) | [中文](https://www.docs4dev.com/docs/zh/python/3.7.2rc1/all) |
 
 
 #### Database
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
-| [MySql](https://www.docs4dev.com/docs/en/mysql/5.7/reference) | [5.7](https://www.docs4dev.com/docs/en/mysql/5.7/reference) | [English](https://www.docs4dev.com/docs/en/mysql/5.7/reference) |
-| [MySql 中文文档](https://www.docs4dev.com/docs/zh/mysql/5.7/reference) | [5.7](https://www.docs4dev.com/docs/zh/mysql/5.7/reference) | [中文](https://www.docs4dev.com/docs/zh/mysql/5.7/reference) |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [MySql](https://www.docs4dev.com/docs/en/mysql/5.7/reference) | [5.7](https://www.docs4dev.com/docs/en/mysql/5.7/reference)  | [English](https://www.docs4dev.com/docs/en/mysql/5.7/reference) |
+| [MySql 中文文档](https://www.docs4dev.com/docs/zh/mysql/5.7/reference) | [5.7](https://www.docs4dev.com/docs/zh/mysql/5.7/reference)  | [中文](https://www.docs4dev.com/docs/zh/mysql/5.7/reference) |
 | [PostgreSQL Documentation](https://www.docs4dev.com/docs/en/postgre-sql/10.7/reference) | [10.7](https://www.docs4dev.com/docs/en/postgre-sql/10.7/reference) | [English](https://www.docs4dev.com/docs/en/postgre-sql/10.7/reference) |
 | [PostgreSQL 中文文档](https://www.docs4dev.com/docs/zh/postgre-sql/10.7/reference) | [10.7](https://www.docs4dev.com/docs/zh/postgre-sql/10.7/reference) | [中文](https://www.docs4dev.com/docs/zh/postgre-sql/10.7/reference) |
 | [PostgreSQL Documentation](https://www.docs4dev.com/docs/en/postgre-sql/11.2/reference) | [11.2](https://www.docs4dev.com/docs/en/postgre-sql/11.2/reference) | [English](https://www.docs4dev.com/docs/en/postgre-sql/11.2/reference) |
@@ -145,24 +163,24 @@ https://www.docs4dev.com
 
 
 #### Logging
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
-| [Log4j2 Manual](https://www.docs4dev.com/docs/en/log4j2/2.x/all) | [2.x](https://www.docs4dev.com/docs/en/log4j2/2.x/all) | [English](https://www.docs4dev.com/docs/en/log4j2/2.x/all) |
-| [Log4j2 中文文档](https://www.docs4dev.com/docs/zh/log4j2/2.x/all) | [2.x](https://www.docs4dev.com/docs/zh/log4j2/2.x/all) | [中文](https://www.docs4dev.com/docs/zh/log4j2/2.x/all) |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Log4j2 Manual](https://www.docs4dev.com/docs/en/log4j2/2.x/all) | [2.x](https://www.docs4dev.com/docs/en/log4j2/2.x/all)       | [English](https://www.docs4dev.com/docs/en/log4j2/2.x/all)   |
+| [Log4j2 中文文档](https://www.docs4dev.com/docs/zh/log4j2/2.x/all) | [2.x](https://www.docs4dev.com/docs/zh/log4j2/2.x/all)       | [中文](https://www.docs4dev.com/docs/zh/log4j2/2.x/all)      |
 | [Logback Manual](https://www.docs4dev.com/docs/en/logback/1.3.0-alpha4/reference) | [1.3.0-alpha4](https://www.docs4dev.com/docs/en/logback/1.3.0-alpha4/reference) | [English](https://www.docs4dev.com/docs/en/logback/1.3.0-alpha4/reference) |
 | [Logback 中文文档](https://www.docs4dev.com/docs/zh/logback/1.3.0-alpha4/reference) | [1.3.0-alpha4](https://www.docs4dev.com/docs/zh/logback/1.3.0-alpha4/reference) | [中文](https://www.docs4dev.com/docs/zh/logback/1.3.0-alpha4/reference) |
 
 
 #### ORM
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Hibernate ORM User Guide](https://www.docs4dev.com/docs/en/hibernate-orm/5.4/reference) | [5.4](https://www.docs4dev.com/docs/en/hibernate-orm/5.4/reference) | [English](https://www.docs4dev.com/docs/en/hibernate-orm/5.4/reference) |
 | [Hibernate ORM 用户指南](https://www.docs4dev.com/docs/zh/hibernate-orm/5.4/reference) | [5.4](https://www.docs4dev.com/docs/zh/hibernate-orm/5.4/reference) | [中文](https://www.docs4dev.com/docs/zh/hibernate-orm/5.4/reference) |
 
 
 #### Template engine
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Thymeleaf Tutorial](https://www.docs4dev.com/docs/en/thymeleaf/3.0/reference) | [3.0](https://www.docs4dev.com/docs/en/thymeleaf/3.0/reference) | [English](https://www.docs4dev.com/docs/en/thymeleaf/3.0/reference) |
 | [Thymeleaf 教程](https://www.docs4dev.com/docs/zh/thymeleaf/3.0/reference) | [3.0](https://www.docs4dev.com/docs/zh/thymeleaf/3.0/reference) | [中文](https://www.docs4dev.com/docs/zh/thymeleaf/3.0/reference) |
 | [Apache FreeMarker Manual](https://www.docs4dev.com/docs/en/freemarker/2.3.28/reference) | [2.3.28](https://www.docs4dev.com/docs/en/freemarker/2.3.28/reference) | [English](https://www.docs4dev.com/docs/en/freemarker/2.3.28/reference) |
@@ -170,8 +188,8 @@ https://www.docs4dev.com
 
 
 #### Big Data
-| 名称 | 文档版本 | 语言 |
-| ---- | ---- | ---- |
+| 名称                                                         | 文档版本                                                     | 语言                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Apache Flume User Guide](https://www.docs4dev.com/docs/en/flume/1.9.0/reference) | [1.9.0](https://www.docs4dev.com/docs/en/flume/1.9.0/reference) | [English](https://www.docs4dev.com/docs/en/flume/1.9.0/reference) |
 | [Apache Flume 用户指南](https://www.docs4dev.com/docs/zh/flume/1.9.0/reference) | [1.9.0](https://www.docs4dev.com/docs/zh/flume/1.9.0/reference) | [中文](https://www.docs4dev.com/docs/zh/flume/1.9.0/reference) |
 | [Apache Hive Language Manual](https://www.docs4dev.com/docs/en/apache-hive/3.1.1/reference) | [3.1.1](https://www.docs4dev.com/docs/en/apache-hive/3.1.1/reference) | [English](https://www.docs4dev.com/docs/en/apache-hive/3.1.1/reference) |
