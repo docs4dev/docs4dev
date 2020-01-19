@@ -48,6 +48,8 @@ https://www.docs4dev.com
 
 ## Contributers
 
+感谢以下同学校对文档
+
 **Github 用户：**
 
 - [mawen12](https://github.com/mawen12) 
@@ -58,11 +60,20 @@ https://www.docs4dev.com
 - [YeDongaidiiqu](https://github.com/YeDongaidiiqu)
 - [JasonEcho](https://github.com/JasonEcho)
 - [GeekJJ](https://github.com/GeekJJ)
+- [luseking](https://github.com/luseking)
+- [yuezheng](https://github.com/yuezheng)
+- [sofiworker](https://github.com/sofiworker)
+- [qinxuan](https://github.com/huazimao)
+- [xxm1995](https://github.com/xxm1995)
+- [MosesRen](https://github.com/MosesRen)
+- [ansionfor](https://github.com/ansionfor)
 
 **其他**
 
 - funbuilder
 - czs
+- cnLittleYu
+- LukeCrazy
 
 ## 网站更新日志
 - 2019-12-01 实现文档 PDF 下载（支持书签，支持多语言）
