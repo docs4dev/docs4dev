@@ -50,7 +50,7 @@ https://www.docs4dev.com
 
 感谢以下同学校对文档
 
-**Github 用户：**
+**Github 注册用户：**
 
 - [mawen12](https://github.com/mawen12) 
 - [zhenkengna](https://github.com/zhenkengna)
@@ -68,7 +68,7 @@ https://www.docs4dev.com
 - [MosesRen](https://github.com/MosesRen)
 - [ansionfor](https://github.com/ansionfor)
 
-**其他**
+**其他(Docs4dev 注册用户)**
 
 - funbuilder
 - czs
