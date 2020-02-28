@@ -1,7 +1,7 @@
 # Docs4dev
 https://www.docs4dev.com 
 
-- [【2019双11】ALL IN CLoud 低至1折](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=eyj8uzr0)
+- [![280X100](https://user-images.githubusercontent.com/46130657/75551845-05e5ba80-5a70-11ea-8ca0-ea5bddd1c3e2.jpg)](https://www.aliyun.com/sale-season/2020/procurement-new-members?userCode=eyj8uzr0)
 
 
 - 新增 PDF 文档下载功能，方便无法联外网的同学查看文档（目前只支持 [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference/boot-documentation-about.html#%E5%85%B3%E4%BA%8E%E6%96%87%E6%A1%A3) 以及 [Zookeeper](https://www.docs4dev.com/docs/en/zookeeper/r3.5.6/reference/zookeeperOver.html)，后续会添加更多文档，如有需要，请提 Issue，我尽量优先添加）。
