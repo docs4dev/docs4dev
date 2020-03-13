@@ -4,6 +4,12 @@ https://www.docs4dev.com
 
 [![280X100](https://user-images.githubusercontent.com/46130657/75551845-05e5ba80-5a70-11ea-8ca0-ea5bddd1c3e2.jpg)](https://www.aliyun.com/sale-season/2020/procurement-new-members?userCode=eyj8uzr0)
 
+
+## 关于广告问题
+
+虽说本项目的开发维护不需要花钱，但是项目托管的云服务器每个月还是会产生一定的费用，所以在网站中添加了 Google 广告来抵消一部分的花费（虽然目前收不抵支😂），如果有影响到了你的浏览体验，可以通过安装广告屏蔽插件的方式将广告屏蔽掉，如 Adblocks 等。
+
+
 ----
 
 - 新增 PDF 文档下载功能，方便无法联外网的同学查看文档（目前只支持 [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference/boot-documentation-about.html#%E5%85%B3%E4%BA%8E%E6%96%87%E6%A1%A3) 以及 [Zookeeper](https://www.docs4dev.com/docs/en/zookeeper/r3.5.6/reference/zookeeperOver.html)，后续会添加更多文档，如有需要，请提 Issue，我尽量优先添加）。
@@ -95,9 +101,6 @@ https://www.docs4dev.com
 - 移动端（小程序）的支持
 - ...
 
-## 关于广告问题
-
-虽说本项目的开发维护不需要花钱，但是项目托管的云服务器每个月还是会产生一定的费用，所以在网站中添加了 Google 广告来抵消一部分的花费（虽然目前收不抵支😂），如果有影响到了你的浏览体验，可以通过安装广告屏蔽插件的方式将广告屏蔽掉，如 Adblocks 等。
 
 ## 文档列表
 
