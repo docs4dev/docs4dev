@@ -2,9 +2,9 @@
 https://www.docs4dev.com 
 
 ----
--  ✨ 网站 UI 更新为 **Git Book** [默认主题](https://github.com/GitbookIO/theme-default)，支持切换字体、支持**夜间模式**。
+- ✨ 网站 UI 更新为 **Git Book** [默认主题](https://github.com/GitbookIO/theme-default)，支持切换字体、支持**夜间模式**。
 
-- ☁ **新增在线博客写作**（一键部署到 Github Pages）
+- ☁ **新增在线博客写作**（一键部署到 Github Pages，[点击此处](https://www.docs4dev.com/guides)查看文档）
 
 ## 项目背景
 
