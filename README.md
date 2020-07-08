@@ -2,14 +2,9 @@
 https://www.docs4dev.com 
 
 ----
-- 更新网站主题为**Git Book**，支持切换字体、支持**夜间模式**。
-- **新增在线博客写作**（一键部署到 Github Pages）
+-  ✨ 网站 UI 更新为 **Git Book** [默认主题](https://github.com/GitbookIO/theme-default)，支持切换字体、支持**夜间模式**。
 
-- 新增 PDF 文档下载功能，方便无法联外网的同学查看文档（目前只支持 [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference/boot-documentation-about.html#%E5%85%B3%E4%BA%8E%E6%96%87%E6%A1%A3) 以及 [Zookeeper](https://www.docs4dev.com/docs/en/zookeeper/r3.5.6/reference/zookeeperOver.html)，后续会添加更多文档，如有需要，请提 Issue，我尽量优先添加）。
-- 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
-
-![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
-
+- ☁ **新增在线博客写作**（一键部署到 Github Pages）
 
 ## 项目背景
 
@@ -19,6 +14,10 @@ https://www.docs4dev.com
 
 最后，如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
+## 移动端支持
+网站支持移动端，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
+
+![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
 
 ## 参与贡献
 
