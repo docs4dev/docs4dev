@@ -1,16 +1,14 @@
 # Docs4dev
 https://www.docs4dev.com 
 
-
-[![280X100](https://user-images.githubusercontent.com/46130657/75551845-05e5ba80-5a70-11ea-8ca0-ea5bddd1c3e2.jpg)](https://www.aliyun.com/sale-season/2020/procurement-new-members?userCode=eyj8uzr0)
-
 ----
+- 更新网站主题为**Git Book**，支持切换字体、支持**夜间模式**。
+- **新增在线博客写作**（一键部署到 Github Pages）
 
 - 新增 PDF 文档下载功能，方便无法联外网的同学查看文档（目前只支持 [Spring Boot](https://www.docs4dev.com/docs/en/spring-boot/1.5.9.RELEASE/reference/boot-documentation-about.html#%E5%85%B3%E4%BA%8E%E6%96%87%E6%A1%A3) 以及 [Zookeeper](https://www.docs4dev.com/docs/en/zookeeper/r3.5.6/reference/zookeeperOver.html)，后续会添加更多文档，如有需要，请提 Issue，我尽量优先添加）。
 - 网站新增移动版，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
 
 ![image](https://user-images.githubusercontent.com/46130657/69495221-77591e80-0eff-11ea-9a44-0ae7fefe63df.png)
-
 
 
 ## 项目背景
@@ -21,23 +19,6 @@ https://www.docs4dev.com
 
 最后，如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
-## 项目技术
-
-目前网站是使用 `Spring Boot` 提供 API， `Nextjs + antd + React Hooks` 做服务端渲染的形式开发的。同时，因为网站的前端使用了很多 h5 特性，所以**对于 IE 的支持不是很友好**，所以推荐使用 `Chrome` 进行访问。
-
-所用技术整理如下：
-
-- **Rest API：**`Spring Boot`
-- **服务端渲染：**`nextjs`
-- **UI 库：** `antd`
-- **编程语言：** `typescript + java`
-- **编辑器：**
-  - `EasyMD`
-  - `stackedit（Vue）`
-- **文本对比：** 
-  - `diff`
-  - `diff2html`
-- **全文检索：** `Elasticsearch`
 
 ## 参与贡献
 
@@ -47,10 +28,6 @@ https://www.docs4dev.com
 - 如果你觉得网站有哪个可以改进的地方，
 - 如果你希望添加更多的工具，
 - 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)
-
-## 关于广告问题
-
-虽说本项目的开发维护不需要花钱，但是项目托管的云服务器每个月还是会产生一定的费用，所以在网站中添加了 Google 广告来抵消一部分的花费，如果有影响到了你的浏览体验，可以通过安装广告屏蔽插件的方式将广告屏蔽掉，如 Adblocks 等。
 
 
 ## Contributers
@@ -83,6 +60,8 @@ https://www.docs4dev.com
 - LukeCrazy
 
 ## 网站更新日志
+- 2020-07-08 修改网站主题为 Git Book 默认主题，支持字体切换，支持夜间模式。
+- 2020-06 新增在线博客写作（一键部署到 Git Pages）
 - 2020-03-13 网站 UI 优化 ([#19](https://github.com/docs4dev/docs4dev/issues/19)）
 - 2019-12-01 实现文档 PDF 下载（支持书签，支持多语言）
 - 2019-11-24 添加手机版 Docs4dev（使用 AMP 方式实现，加载速度更快且更省流量 🛩 ）
