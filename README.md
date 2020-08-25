@@ -1,18 +1,14 @@
 # Docs4dev
 https://www.docs4dev.com 
 
-----
-- ✨ 网站 UI 更新为 **Git Book** [默认主题](https://github.com/GitbookIO/theme-default)，支持切换字体、支持**夜间模式**。
-
-- ☁ **新增在线博客写作**（一键部署到 Github Pages，[点击此处](https://www.docs4dev.com/guides)查看文档）
-
 ## 项目背景
 
-目前许多开源项目的文档，都只有英文版，这对于国内用户不太友好；虽然目前也有很多人翻译文档，但是工作量太大，导致文档的翻译不是很全，而且时效性较低，很多框架的文档都是较老的版本。基于此，我创建了这个项目，并建立了相关的网站 [Docs4dev](https://www.docs4dev.com )。我会使用爬虫从官方拉取最新版本的文档，并通过调用 **翻译API** 对文档进行初步翻译，以减少后续人工翻译的工作量。
+目前许多开源的项目，都只有英文版本，而且国内访问外网的速度也堪忧。所以我创建了 [Docs4dev](https://www.docs4dev.com ) 从项目官方拉取文档，并且使用 **机器翻译技术** 对文档进行初步翻译，同时，为了便于检索文档，还添加了 Es 的支持。
 
-~但是，因个人的时间及精力有限，同时我还要维护网站，抓取文档，所以无法及时对所有文档进行一一进行校对，所以，希望你能够帮助我一起来完善文档（[查看校对指南](GUIDE.md)）。~(暂时下线校对功能)
+## 问题
+因为本站所有文档都是通过机器翻译的，所以难免会有错误以及翻译不准确的地方，如果你发现了文档的问题，可以直接通过页面左上角的【编辑此页】按钮对文档进行编辑，也可以直接在 [这里](https://github.com/docs4dev/docs4dev-issues/issues) 提 issue。
 
-最后，如果你觉得本项目对你有所帮助，希望点赞支持一下。
+如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
 ## 移动端支持
 网站支持移动端，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
@@ -21,12 +17,12 @@ https://www.docs4dev.com
 
 ## 参与贡献
 
-- ~如果你希望参与校对，请阅读 [校对指南](GUIDE.md)。~ (注：因为最近在优化整站文档的翻译，以及对文档结构进行微调，所以暂时下线了校对功能)
+- 如果你希望参与校对，请阅读 [校对指南](GUIDE.md)。
 - 如果你希望添加某个文档，
 - 如果你发现了网站的 bug，
 - 如果你觉得网站有哪个可以改进的地方，
 - 如果你希望添加更多的工具，
-- 请给我提 [issue](https://github.com/docs4dev/docs4dev/issues/new)
+- 请给我提 [issue](https://github.com/docs4dev/docs4dev-issues/new)
 
 
 ## Contributers
@@ -59,8 +55,12 @@ https://www.docs4dev.com
 - LukeCrazy
 
 ## 网站更新日志
-- 2020-07-08 修改网站主题为 Git Book 默认主题，支持字体切换，支持夜间模式。
-- 2020-06 新增在线博客写作（一键部署到 Git Pages）
+
+- 2020-08-24 
+  - 优化文档 UI，添加 **Admonition** 支持，添加文档 **tabs** 支持
+  - 优化文档翻译
+- 2020-07-08 网站 UI 更新为 **Git Book** [默认主题](https://github.com/GitbookIO/theme-default)，支持切换字体、支持**夜间模式**。
+- 2020-06 **新增在线博客写作**（一键部署到 Github Pages，[点击此处](https://www.docs4dev.com/guides)查看文档）
 - 2020-03-13 网站 UI 优化 ([#19](https://github.com/docs4dev/docs4dev/issues/19)）
 - 2019-12-01 实现文档 PDF 下载（支持书签，支持多语言）
 - 2019-11-24 添加手机版 Docs4dev（使用 AMP 方式实现，加载速度更快且更省流量 🛩 ）
@@ -68,14 +68,6 @@ https://www.docs4dev.com
 - 2019-10-10 修复 GitHub 网站使用github 登录出错 ([#9](https://github.com/docs4dev/docs4dev/issues/9))
 - 2019-10-03 修复文档翻译错误 ([#8](https://github.com/docs4dev/docs4dev/issues/8))
 - 2019-08-09 修复网站 502 错误 ([#5](https://github.com/docs4dev/docs4dev/issues/5))
-- ...
-
-## Roadmap
-
-
-- 更多文档的支持
-- [asciidoctor](https://github.com/asciidoctor/asciidoctor) 格式支持
-- 移动端（小程序）的支持
 - ...
 
 
