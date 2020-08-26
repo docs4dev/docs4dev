@@ -1,8 +1,8 @@
 # Docs4dev
-https://www.docs4dev.com/docs
+https://www.docs4dev.com/
 
 ## 项目背景
-创建 [Docs4dev](https://www.docs4dev.com/docs ) 的初衷，是因为自己在写代码的过程中，经常需要查看各类框架的文档，但是大部分文档都只有英文版本，而且很多文档不支持站内搜索，查资料时非常不方便，所以我创建了 [Docs4dev](https://www.docs4dev.com/docs )。
+创建 [Docs4dev](https://www.docs4dev.com/) 的初衷，是因为自己在写代码的过程中，经常需要查看各类框架的文档，但是大部分文档都只有英文版本，而且很多文档不支持站内搜索，查资料时非常不方便，所以我创建了 [Docs4dev](https://www.docs4dev.com/ )。
 
 ## 问题
 因为本站所有文档都是通过机器翻译的，所以难免会有错误以及翻译不准确的地方，如果你发现了文档的问题，可以直接通过页面左上角的【编辑此页】按钮对文档进行编辑，也可以直接在 [这里](https://github.com/docs4dev/docs4dev-issues/issues) 提 issue。
