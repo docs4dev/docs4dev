@@ -2,8 +2,7 @@
 https://www.docs4dev.com 
 
 ## 项目背景
-
-目前许多开源的项目，都只有英文版本，而且国内访问外网的速度也堪忧。所以我创建了 [Docs4dev](https://www.docs4dev.com ) 从项目官方拉取文档，并且使用 **机器翻译技术** 对文档进行初步翻译，同时，为了便于检索文档，还添加了 Es 的支持。
+创建 [Docs4dev](https://www.docs4dev.com ) 的初衷，是因为自己在写代码的过程中，经常需要查看各类框架的文档，但是大部分文档都只有英文版本，而且很多文档不支持站内搜索，查资料时非常不方便，所以我创建了 [Docs4dev](https://www.docs4dev.com )。
 
 ## 问题
 因为本站所有文档都是通过机器翻译的，所以难免会有错误以及翻译不准确的地方，如果你发现了文档的问题，可以直接通过页面左上角的【编辑此页】按钮对文档进行编辑，也可以直接在 [这里](https://github.com/docs4dev/docs4dev-issues/issues) 提 issue。
@@ -29,30 +28,40 @@ https://www.docs4dev.com
 
 感谢以下同学校对文档
 
-**Github 注册用户：**
-
-- [mawen12](https://github.com/mawen12) 
-- [zhenkengna](https://github.com/zhenkengna)
-- [gengqiupeng](https://github.com/gengqiupeng) 
-- [GeekJJ](https://github.com/GeekJJ)
-- [yansheng836](https://github.com/yansheng836)
-- [YeDongaidiiqu](https://github.com/YeDongaidiiqu)
-- [JasonEcho](https://github.com/JasonEcho)
-- [GeekJJ](https://github.com/GeekJJ)
-- [luseking](https://github.com/luseking)
-- [yuezheng](https://github.com/yuezheng)
-- [sofiworker](https://github.com/sofiworker)
-- [qinxuan](https://github.com/huazimao)
-- [xxm1995](https://github.com/xxm1995)
-- [MosesRen](https://github.com/MosesRen)
-- [ansionfor](https://github.com/ansionfor)
-
-**其他(Docs4dev 注册用户)**
-
-- funbuilder
-- czs
-- cnLittleYu
-- LukeCrazy
+| 昵称          | Github 地址                      |
+| ------------- | -------------------------------- |
+| GeekJJ        | https://github.com/GeekJJ        |
+| funbuilder    |                                  |
+| zhenkengna    | https://github.com/zhenkengna    |
+| gengqiupeng   | https://github.com/gengqiupeng   |
+| yansheng836   | https://github.com/yansheng836   |
+| YeDongaidiiqu | https://github.com/YeDongaidiiqu |
+| mawen12       | https://github.com/mawen12       |
+| JasonEcho     | https://github.com/JasonEcho     |
+| czs           |                                  |
+| luseking      | https://github.com/luseking      |
+| yuezheng      | https://github.com/yuezheng      |
+| cnLittleYu    |                                  |
+| LukeCrazy     |                                  |
+| sofiworker    | https://github.com/sofiworker    |
+| qinxuan       | https://github.com/huazimao      |
+| xxm1995       | https://github.com/xxm1995       |
+| MosesRen      | https://github.com/MosesRen      |
+| ansionfor     | https://github.com/ansionfor     |
+| 92hackers     | https://github.com/92hackers     |
+| longquan99    | https://github.com/longquan99    |
+| Faiz2035      | https://github.com/Faiz2035      |
+| TsinghuaDream | https://github.com/TsinghuaDream |
+| moment        |                                  |
+| 2的2次方      |                                  |
+| quentin.w     |                                  |
+| xlwh          | https://github.com/xlwh          |
+| carzyhub      | https://github.com/carzyhub      |
+| backend-xzy   | https://github.com/backend-xzy   |
+| yun-yun       | https://github.com/yun-yun       |
+| gitgit        |                                  |
+| caichangi     | https://github.com/caichangi     |
+| gentlelegant  | https://github.com/gentlelegant  |
 
 ## 网站更新日志
 
