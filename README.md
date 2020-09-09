@@ -9,6 +9,12 @@ https://www.docs4dev.com/
 
 如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
+## 文档下载
+
+- 2020-09-09 新增
+  - [【Spring Boot 1.5.9 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=1.5.9.RELEASE&type=reference&lang=zh)
+  - [【Mysql 5.7 官方英文文档下载】](https://www.docs4dev.com/download?code=mysql&version=5.7&type=reference&lang=en)
+
 ## 移动端支持
 网站支持移动端，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
 
@@ -65,6 +71,7 @@ https://www.docs4dev.com/
 
 ## 网站更新日志
 
+- 2020-09-09 新增文档下载
 - 2020-08-24 
   - 优化文档 UI，添加 **Admonition** 支持，添加文档 **tabs** 支持
   - 优化文档翻译
