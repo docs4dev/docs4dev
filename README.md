@@ -10,7 +10,7 @@ https://www.docs4dev.com/
 如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
 ## 文档下载
-
+- 2020-10-08 新增常用框架 API 文档：https://www.docs4dev.com/javadoc/
 - 2020-09-09 新增
   - [【Spring Boot 1.5.9 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=1.5.9.RELEASE&type=reference&lang=zh)
   - [【Mysql 5.7 官方英文文档下载】](https://www.docs4dev.com/download?code=mysql&version=5.7&type=reference&lang=en)
