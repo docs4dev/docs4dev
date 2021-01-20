@@ -9,7 +9,11 @@ https://www.docs4dev.com/
 
 如果你觉得本项目对你有所帮助，希望点赞支持一下。
 
-## 文档下载
+## Change Logs
+- 2021-01-20 新增两个在线工具
+  - [【Swagger 文档在线导出】](https://www.docs4dev.com/tools/zh/swagger2markup/) 支持将 `Swagger` 文档在线导出为 `PDF, AsciiDoc, Markdown, EPUB3, HTML` 格式
+  - [【最好用的 Git 分支学习工具】](https://www.docs4dev.com/tools/learnGitBranching/?locale=zh_CN)
+
 - 2020-11-24 新增
   - [【Spring Boot 2.1.1.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=2.1.1.RELEASE&type=reference&lang=zh)
   - [【Spring Framework 4.3.21.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-framework&version=4.3.21.RELEASE&type=reference&lang=zh)
