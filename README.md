@@ -1,31 +1,13 @@
 # Docs4dev
 https://www.docs4dev.com/
-
-## 项目背景
-创建 [Docs4dev](https://www.docs4dev.com/) 的初衷，是因为自己在写代码的过程中，经常需要查看各类框架的文档，但是大部分文档都只有英文版本，而且很多文档不支持站内搜索，查资料时非常不方便，所以我创建了 [Docs4dev](https://www.docs4dev.com/ )。
-
-## 问题
-因为本站所有文档都是通过机器翻译的，所以难免会有错误以及翻译不准确的地方，如果你发现了文档的问题，可以直接通过页面左上角的【编辑此页】按钮对文档进行编辑，也可以直接在 [这里](https://github.com/docs4dev/docs4dev-issues/issues) 提 issue。
+## Features
+- [【文档在线浏览】](#文档列表)
+- [【Swagger 文档在线导出】](https://www.docs4dev.com/tools/zh/swagger2markup/) 支持将 `Swagger` 文档在线导出为 `PDF, AsciiDoc, Markdown, EPUB3, HTML` 格式
+- [【最好用的 Git 分支学习工具】](https://www.docs4dev.com/tools/learnGitBranching/?locale=zh_CN)
+## NOTE
+因为本站所有文档都是通过**机器翻译**的，所以难免会有错误以及翻译不准确的地方，如果你发现了文档的问题，可以在 [这里](https://github.com/docs4dev/docs4dev-issues/issues) 提 issue。
 
 如果你觉得本项目对你有所帮助，希望点赞支持一下。
-
-## Change Logs
-- 2021-01-20 新增两个在线工具
-  - [【Swagger 文档在线导出】](https://www.docs4dev.com/tools/zh/swagger2markup/) 支持将 `Swagger` 文档在线导出为 `PDF, AsciiDoc, Markdown, EPUB3, HTML` 格式
-  - [【最好用的 Git 分支学习工具】](https://www.docs4dev.com/tools/learnGitBranching/?locale=zh_CN)
-
-- 2020-11-24 新增
-  - [【Spring Boot 2.1.1.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=2.1.1.RELEASE&type=reference&lang=zh)
-  - [【Spring Framework 4.3.21.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-framework&version=4.3.21.RELEASE&type=reference&lang=zh)
-  - [【Spring Framework 5.1.3.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-framework&version=5.1.3.RELEASE&type=reference&lang=zh)
-  - [【Spring Cloud Edgware.SR5 中文文档下载】](https://www.docs4dev.com/download?code=spring-cloud&version=Edgware.SR5&type=reference&lang=zh)
-  - [【Spring Cloud Finchley.SR2 中文文档下载】](https://www.docs4dev.com/download?code=spring-cloud&version=Finchley.SR2&type=reference&lang=zh)
-  
-
-- 2020-10-08 新增常用框架 API 文档：https://www.docs4dev.com/javadoc/
-- 2020-09-09 新增
-  - [【Spring Boot 1.5.9 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=1.5.9.RELEASE&type=reference&lang=zh)
-  - [【Mysql 5.7 官方英文文档下载】](https://www.docs4dev.com/download?code=mysql&version=5.7&type=reference&lang=en)
 
 ## 移动端支持
 网站支持移动端，你可以直接关注以下微信公众号并回复关键字【文档】，或是直接在手机浏览器中打开 【 https://www.docs4dev.com/amp/ 】 即可通过手机浏览文档
@@ -34,12 +16,11 @@ https://www.docs4dev.com/
 
 ## 参与贡献
 
-- 如果你希望参与校对，请阅读 [校对指南](GUIDE.md)。
 - 如果你希望添加某个文档，
 - 如果你发现了网站的 bug，
 - 如果你觉得网站有哪个可以改进的地方，
 - 如果你希望添加更多的工具，
-- 请给我提 [issue](https://github.com/docs4dev/docs4dev-issues/new)
+- 请提 [issue](https://github.com/docs4dev/docs4dev-issues/new)
 
 
 ## Contributers
@@ -81,8 +62,28 @@ https://www.docs4dev.com/
 | caichangi     | https://github.com/caichangi     |
 | gentlelegant  | https://github.com/gentlelegant  |
 
-## 网站更新日志
 
+## Change Logs
+
+- 2021-07-11 
+  - 重构网站爬虫
+  - 使用 [algolia/autocomplete](https://github.com/algolia/autocomplete) 优化了网站搜索
+  ![image](https://user-images.githubusercontent.com/46130657/125290698-2f487300-e353-11eb-97ea-fcf87b760fc4.png)
+- 2021-01-20 新增两个在线工具
+  - [【Swagger 文档在线导出】](https://www.docs4dev.com/tools/zh/swagger2markup/) 支持将 `Swagger` 文档在线导出为 `PDF, AsciiDoc, Markdown, EPUB3, HTML` 格式
+  - [【最好用的 Git 分支学习工具】](https://www.docs4dev.com/tools/learnGitBranching/?locale=zh_CN)
+
+- 2020-11-24 新增
+  - [【Spring Boot 2.1.1.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=2.1.1.RELEASE&type=reference&lang=zh)
+  - [【Spring Framework 4.3.21.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-framework&version=4.3.21.RELEASE&type=reference&lang=zh)
+  - [【Spring Framework 5.1.3.RELEASE 中文文档下载】](https://www.docs4dev.com/download?code=spring-framework&version=5.1.3.RELEASE&type=reference&lang=zh)
+  - [【Spring Cloud Edgware.SR5 中文文档下载】](https://www.docs4dev.com/download?code=spring-cloud&version=Edgware.SR5&type=reference&lang=zh)
+  - [【Spring Cloud Finchley.SR2 中文文档下载】](https://www.docs4dev.com/download?code=spring-cloud&version=Finchley.SR2&type=reference&lang=zh)
+  
+- 2020-10-08 新增常用框架 API 文档：https://www.docs4dev.com/javadoc/
+- 2020-09-09 新增
+  - [【Spring Boot 1.5.9 中文文档下载】](https://www.docs4dev.com/download?code=spring-boot&version=1.5.9.RELEASE&type=reference&lang=zh)
+  - [【Mysql 5.7 官方英文文档下载】](https://www.docs4dev.com/download?code=mysql&version=5.7&type=reference&lang=en)
 - 2020-09-09 新增文档下载
 - 2020-08-24 
   - 优化文档 UI，添加 **Admonition** 支持，添加文档 **tabs** 支持
