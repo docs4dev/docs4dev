@@ -1,5 +1,7 @@
 # Docs4dev
-https://www.docs4dev.com/
+- Docs4dev https://www.docs4dev.com
+- Javadoc https://javadoc.org
+
 ## Features
 - [【文档在线浏览】](#文档列表)
 - [【Swagger 文档在线导出】](https://www.docs4dev.com/tools/zh/swagger2markup/) 支持将 `Swagger` 文档在线导出为 `PDF, AsciiDoc, Markdown, EPUB3, HTML` 格式
@@ -65,6 +67,10 @@ https://www.docs4dev.com/
 
 ## Change Logs
 
+- 2021-11-17 托管 javadoc：https://javadoc.org
+  - [![spring](https://img.shields.io/badge/spring-5.3.11-brightgreen)](https://javadoc.org/artifact/org.springframework/spring/5.3.11/)
+  - [![spring-core](https://img.shields.io/badge/spring--core-5.3.11-brightgreen)](https://javadoc.org/artifact/org.springframework/spring-core/5.3.11/)
+  - ...
 - 2021-07-11 
   - 重构网站爬虫
   - 使用 [algolia/autocomplete](https://github.com/algolia/autocomplete) 优化了网站搜索
